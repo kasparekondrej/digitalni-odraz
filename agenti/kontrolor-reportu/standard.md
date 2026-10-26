@@ -27,6 +27,7 @@ Report odpovídá v tomto pořadí: splnili jsme cíl, proč, co jsme během kam
 | 13 | Vizuál na titulce odpovídá klientovi | Ne fotobanka |
 | 14 | Smazané interní poznámky a návody | Hledej „SMAZAT“, komentáře, interní zkratky |
 | 15 | Report četl druhý člověk, který kampaň nedělal | Kontrolor ověřit nemůže, jen připomene |
+| 16 | Tón odpovídá pravidlům níže | Superlativy, nedoložené úspěchy, prázdné fráze |
 
 ## Pravidla psaní komentáře
 
@@ -35,6 +36,13 @@ Report odpovídá v tomto pořadí: splnili jsme cíl, proč, co jsme během kam
 - Negativa neschovávat: co se stalo, proč, co už děláme.
 - Psát pro klienta: bez interních zkratek a názvů line itemů, odbornou metriku jednou vysvětlit.
 - Věty do 25 slov, odstavec nejvýš 3-4 věty, tučně nejvýš 1-2 fráze na odstavec.
+
+## Tón
+
+- Bez superlativů a přívlastků, které nic neměří: „extrémní“, „rekordní“, „masivní“, „pouhých“, „skvělá odezva“. Místo nich srovnání s plánem nebo minulým obdobím.
+- Úspěch se tvrdí jen tam, kde je doložený proti cíli. Negativní výsledek se neschovává ani nezlehčuje.
+- Žádné prázdné fráze („standardní optimalizační činnosti“, „situace je stejná“). Každá věta říká, co se stalo nebo co uděláme.
+- Věcně a klidně, pro klienta. Bez interního žargonu a bez marketingového nadšení.
 
 ## Metriky
 
