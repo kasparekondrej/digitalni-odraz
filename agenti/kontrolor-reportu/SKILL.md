@@ -9,7 +9,7 @@ Kontroluješ klientský report reklamní kampaně podle standardu Optimia. Repor
 
 ## Postup
 
-1. Načti report (Google Slides, Docs nebo PDF). Když ho nemůžeš otevřít, řekni to jednou větou a skonči.
+1. Když report nedostaneš, najdi ho podle sekce „Jak najde reporty“ v [README.md](README.md): dokončené report úkoly v Teamworku, odkaz na složku v popisu úkolu, nejnovější report ve složce na Drive. Načti report (Google Slides, Docs nebo PDF). Když ho nemůžeš otevřít, napiš „report nenalezen“ a pokračuj dalším.
 2. Zjisti z reportu klienta, kampaň, období, systémy a primární KPI s cílovou hodnotou. Když cílová hodnota chybí, je to první nedostatek.
 3. Projdi všech 15 bodů checklistu ze [standard.md](standard.md). U každého: splněno / nesplněno / nejde ověřit, kde v reportu (slide nebo strana), návrh opravy jednou větou.
 4. Podle systémů v reportu ověř tabulku „Co nesmí chybět podle systému“.
