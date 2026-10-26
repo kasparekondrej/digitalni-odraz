@@ -2,7 +2,7 @@
 
 První specializovaný agent pod odrazem. Zkontroluje klientský report reklamní kampaně podle interního standardu Optimia dřív, než odejde klientovi. Odraz jeho výstup schválí Ondřejovými pravidly a Ondřejovi pošle jen výjimky.
 
-Stav: návrh zadání ke schválení. Agent zatím neběží.
+Stav: test naslepo na 3 zářijových reportech Ondřej potvrdil 26. 10. 2026 („sedí“). Naplánovaná úloha běží od 2. 11. 2026, prompt v [ulohy/kontrolor-reportu.md](../../ulohy/kontrolor-reportu.md), výsledky v Claude Docu [Kontrolor reportů](https://claude.ai/artifact/3XdQKDbZoVbYxZNpS5qbbD).
 
 ## Proč první
 
@@ -25,7 +25,7 @@ Jen týmy, které vede Ondřej: Social, Content, Grafika, PPC a RTB/DV360 (včet
 
 1. Běží každý pracovní den od 1. do 20. dne v měsíci, první ostrý běh v listopadu 2026 (reporty za říjen).
 2. Ke každému nalezenému reportu projde [standard.md](standard.md) a vrátí řádek: klient, kanál, autor, odkaz na úkol a soubor, verdikt, počet nesplněných bodů, nejdůležitější oprava.
-3. Výsledky zapisuje do jednoho Claude Docu za měsíc („Kontrolor reportů 10/2026“). Ke každému reportu připraví komentář pro autora Ondřejovým hlasem.
+3. Výsledky zapisuje do Claude Docu „Kontrolor reportů“. Ke každému reportu připraví komentář pro autora Ondřejovým hlasem.
 4. Komentář jde do Teamwork úkolu na report, Ondřejovým jménem (připojený účet je jeho), se zmínkou autora (řešitel úkolu). Accounta projektu (vlastník projektu v Teamworku) přidá jen tam, kde to Ondřej určí.
 5. Kontrolor nic neopravuje v samotném reportu a nic neposílá klientovi.
 
@@ -44,7 +44,6 @@ Komentář: oslovení autora zdrobnělinou, co je v reportu dobře (jedna věta)
 
 ## Otevřené otázky pro Ondřeje
 
-- U kterých projektů přidávat do komentáře i accounta?
+- U kterých projektů přidávat do komentáře i accounta? Zatím u žádného.
 - Práh pro rozpočet: od jaké odchylky plánu a skutečnosti chce Ondřej report vidět? Výchozí nastavení: 10 %.
-- Test naslepo: na zářijových reportech TT Green Life (Social), Artemia a Ambitent (DV360 brand). Ondřej potvrdí, jestli kontrolor trefil to, co by vytkl on.
-- Srovnávače: patří pod PPC, nebo je kontrolor má vynechat?
+- Srovnávače: patří pod PPC, nebo je kontrolor má vynechat? Zatím je vynechává.
