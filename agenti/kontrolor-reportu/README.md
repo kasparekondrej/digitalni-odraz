@@ -25,8 +25,15 @@ Jen týmy, které vede Ondřej: Social, Content, Grafika, PPC a RTB/DV360 (včet
 
 1. Běží každý pracovní den od 1. do 20. dne v měsíci, první ostrý běh v listopadu 2026 (reporty za říjen).
 2. Ke každému nalezenému reportu projde [standard.md](standard.md) a vrátí řádek: klient, kanál, autor, odkaz na úkol a soubor, verdikt, počet nesplněných bodů, nejdůležitější oprava.
-3. Výsledky zapisuje do jednoho Claude Docu za měsíc („Kontrolor reportů 10/2026“). Ranní přehled z něj převezme jen reporty, které jdou Ondřejovi.
-4. Kontrolor nic neopravuje v samotném reportu, nic neposílá autorovi ani klientovi a nic nekomentuje v Teamworku.
+3. Výsledky zapisuje do jednoho Claude Docu za měsíc („Kontrolor reportů 10/2026“). Ke každému reportu připraví komentář pro autora Ondřejovým hlasem.
+4. Komentář jde do Teamwork úkolu na report, Ondřejovým jménem (připojený účet je jeho), se zmínkou autora (řešitel úkolu). Accounta projektu (vlastník projektu v Teamworku) přidá jen tam, kde to Ondřej určí.
+5. Kontrolor nic neopravuje v samotném reportu a nic neposílá klientovi.
+
+## Odesílání komentářů
+
+Podle rozhodnutí Ondřeje z 26. 10. 2026 (viz [mandát](../../pravidla/mandat.md)). Do rozhodnutí platí: komentář se v Teamworku objeví až po Ondřejově souhlasu v ranním přehledu. Reporty s verdiktem „potřebuje Ondřeje“ jdou vždy nejdřív jemu.
+
+Komentář: oslovení autora zdrobnělinou, co je v reportu dobře (jedna věta), nejvýš 5 konkrétních oprav se slidem, termín „před odesláním klientovi“, podpis „O.“. Kritika vždy s návrhem řešení.
 
 ## Kdy jde report Ondřejovi
 
@@ -37,7 +44,7 @@ Jen týmy, které vede Ondřej: Social, Content, Grafika, PPC a RTB/DV360 (včet
 
 ## Otevřené otázky pro Ondřeje
 
-- Komu kontrolor výsledek vrací: autorovi reportu, nebo nejdřív jen Ondřejovi? Výchozí nastavení: první měsíc jen Ondřejovi.
+- U kterých projektů přidávat do komentáře i accounta?
 - Práh pro rozpočet: od jaké odchylky plánu a skutečnosti chce Ondřej report vidět? Výchozí nastavení: 10 %.
 - Test naslepo: na zářijových reportech TT Green Life (Social), Artemia a Ambitent (DV360 brand). Ondřej potvrdí, jestli kontrolor trefil to, co by vytkl on.
 - Srovnávače: patří pod PPC, nebo je kontrolor má vynechat?

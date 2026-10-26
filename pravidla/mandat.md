@@ -22,6 +22,7 @@ Platí pro hlavního agenta, všechny skilly, úlohy i agenty pod odrazem. Měn�
 |---|---|
 | 2026-10-22 | Výchozí mandát: jen návrhy do ranního přehledu, nikde nic nezapisovat. |
 | 2026-10-26 | Koncepty v Gmailu a Slacku zatím ne. Místo nich klikací odkazy na originál u každého návrhu v ranním přehledu. |
+| 2026-10-26 | Ondřej chce, aby Kontrolor reportů posílal připomínky jeho jménem jako komentář v Teamwork úkolu na report (autor, případně account). Způsob schválení viz [Kontrolor reportů](../agenti/kontrolor-reportu/README.md#odesílání-komentářů). |
 
 ## Plánovaná autonomie
 
