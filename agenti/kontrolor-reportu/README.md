@@ -31,7 +31,7 @@ Jen týmy, které vede Ondřej: Social, Content, Grafika, PPC a RTB/DV360 (včet
 
 ## Odesílání komentářů
 
-Podle rozhodnutí Ondřeje z 26. 10. 2026 (viz [mandát](../../pravidla/mandat.md)). Do rozhodnutí platí: komentář se v Teamworku objeví až po Ondřejově souhlasu v ranním přehledu. Reporty s verdiktem „potřebuje Ondřeje“ jdou vždy nejdřív jemu.
+Rozhodnutí Ondřeje z 26. 10. 2026 (viz [mandát](../../pravidla/mandat.md)): každý komentář se v Teamworku objeví až po jeho souhlasu. Kontrolor komentáře připraví do měsíčního přehledu, ranní přehled je ukáže a Ondřej odpoví „pošli“ (všechny, nebo čísla). Automatické odesílání bez souhlasu není povolené.
 
 Komentář: oslovení autora zdrobnělinou, co je v reportu dobře (jedna věta), nejvýš 5 konkrétních oprav se slidem, termín „před odesláním klientovi“, podpis „O.“. Kritika vždy s návrhem řešení.
 
