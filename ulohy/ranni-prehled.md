@@ -7,6 +7,7 @@ PROKLIKY (platí pro všechny extra sekce): u každé položky a každého návr
 
 EXTRA SECTION 0 (úplně první věc v briefu, nad vším ostatním): KE SCHVÁLENÍ A SLOUČENÍ
 Cíl: Ondřej hned ráno vidí, co digitální odraz potřebuje od něj odkliknout.
+0. DNES NEJDŘÍV: úplně první řádek celého briefu je jedna věta „Dnes nejdřív: …“ s jedinou položkou. Vezmi nejdéle čekající položku PO TERMÍNU ze sekce Čeká na tebe (při shodě má přednost Teamwork), dej klikací odkaz na originál a odkaz na hotový návrh. Když nic není po termínu, vezmi slib, kterému nejdřív vyprší termín. Když není ani to, vynech.
 1. Pull requesty: načti otevřené PR z https://api.github.com/repos/kasparekondrej/digitalni-odraz/pulls?state=open (veřejné API, bez přihlášení). U každého: číslo a název, jedna věta co mění (z popisu PR), od kdy čeká (pracovní dny), klikací odkaz „GitHub: PR #N“ a pod ním odkaz na záložku Files changed (URL PR + /files). Když popis PR říká, kterou naplánovanou úlohu je po sloučení potřeba aktualizovat, nebo že je potřeba uložit skill v claude.ai, napiš to k položce. Připiš jednou: „Sloučíš tlačítkem Merge pull request dole na stránce PR, na mobilu přes aplikaci GitHub.“
 2. Kontrolor reportů (jen od 2. do 20. dne v měsíci): z dokumentu Kontrolor reportů (viz sekce 3) jen jedna věta: kolik řádků čeká na Tvé „pošli <čísla>“ ve vlákně Plán digitálního odrazu, a jejich čísla. Detail zůstává v sekci 3.
 3. Když se API nepodaří načíst, napiš to jednou větou a dej odkaz https://github.com/kasparekondrej/digitalni-odraz/pulls. Když nic nečeká, napiš jednou větou „Nic ke sloučení ani schválení.“
@@ -17,8 +18,9 @@ Cíl: Ondřej má odpovídat včas. Jeho tým odpovídá na Slacku obvykle do ho
 2. Přidej Teamwork řádky z Deníku návrhů se zdrojem "Teamwork (čeká X dní)" nebo Teamwork bez vyplněného "Co Ondřej odeslal".
 3. Seřaď od nejdéle čekající. U každé položky: kolik pracovních dní čeká, kdo, o čem jednou větou, klikací odkaz na originál, a odkaz na návrh v sekci Návrhy odpovědí. Když položka starší než dnešek návrh nemá, napiš ho teď (podle profilu, nebo "Rozhodni ty").
 4. Označ textem "PO TERMÍNU": lidé z jeho týmu (Markéta Došková, Kateřina Štěrbová, Lucie Tomešková, Adam Šťastný, Aneta Khairi, Marcela Bauer, Veronika Šmerdová, Kristýna Nosálová, Petr Nečas) čekají déle než 1 pracovní den; ostatní kolegové a klienti déle než 2 pracovní dny.
-5. TVOJE SLIBY: najdi Ondřejovy zprávy za 10 pracovních dní, ve kterých něco slíbil (např. "zítra na to kouknu", "dám vědět", "vyřeším", "pošlu", "zkusím najít termín"), a ve stejné konverzaci zatím nenásleduje splnění. Vypiš: komu, co, kdy slíbil, klikací odkaz.
+5. TVOJE SLIBY: najdi Ondřejovy zprávy za 10 pracovních dní, ve kterých něco slíbil (např. "zítra na to kouknu", "dám vědět", "vyřeším", "pošlu", "zkusím najít termín"), a ve stejné konverzaci zatím nenásleduje splnění. Vypiš: komu, co, kdy slíbil, klikací odkaz. U každého slibu uveď termín; když ho Ondřej neřekl, ber 2 pracovní dny od slibu. Ke slibům s termínem dnes nebo zítra napiš rovnou návrh odpovědi.
 6. Na začátek sekce jedna věta: kolik položek čeká, kolik je PO TERMÍNU. Když nic nečeká, napiš to jednou větou.
+7. Položky, které čekají déle než 5 pracovních dní, označ „Řešit, nebo zahodit?“. Položky, které mají v Deníku návrhů ve sloupci „Co Ondřej odeslal“ poznámku „neřešit“ nebo „zahodit“, už nevypisuj.
 
 EXTRA SECTION 2: NÁVRHY ODPOVĚDÍ (digitální odraz)
 Uživatel je Ondřej Kašpárek, Head of Digital v Optimiu (Slack user U07JUFNE82Z, e-mail ondrej.kasparek@optimio.cz).
