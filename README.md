@@ -10,6 +10,7 @@ Agent, který myslí a píše jako Ondřej Kašpárek, Head of Digital v Optimiu
 | [skills/](skills/) | Skilly odrazu. Vstupem je [odraz-hlavni-agent](skills/odraz-hlavni-agent/SKILL.md), který úlohu předá správnému skillu |
 | [ulohy/](ulohy/) | Přesné znění promptů naplánovaných úloh a jejich rozvrh |
 | [agenti/](agenti/) | Specializovaní agenti pod odrazem. První je [Kontrolor reportů](agenti/kontrolor-reportu/) |
+| [znalosti/](znalosti/) | Závěry z projektových vláken, jeden soubor na téma. Čte je hlavní agent |
 
 ## Živé dokumenty mimo repozitář
 
