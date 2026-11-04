@@ -10,6 +10,8 @@ Agent, který myslí a píše jako Ondřej Kašpárek, Head of Digital v Optimiu
 | [skills/](skills/) | Skilly odrazu. Vstupem je [odraz-hlavni-agent](skills/odraz-hlavni-agent/SKILL.md), který úlohu předá správnému skillu |
 | [ulohy/](ulohy/) | Přesné znění promptů naplánovaných úloh a jejich rozvrh |
 | [agenti/](agenti/) | Specializovaní agenti pod odrazem. První je [Kontrolor reportů](agenti/kontrolor-reportu/) |
+| [stav/](stav/) | [Worklog](stav/worklog.md): kde jsme skončili a co je rozdělané. Píše skill `uloz`, čte skill `navaz` |
+| [nastroje/](nastroje/) | [Kontrola citlivých údajů](nastroje/kontrola-citlivych.sh) před commitem |
 | [znalosti/](znalosti/) | Závěry z projektových vláken, jeden soubor na téma. Čte je hlavní agent |
 
 ## Živé dokumenty mimo repozitář
@@ -22,6 +24,8 @@ Agent, který myslí a píše jako Ondřej Kašpárek, Head of Digital v Optimiu
 1. Změna (nové pravidlo, úprava skillu, prompt) se navrhne jako pull request.
 2. Ondřej ji přečte a sloučí, nebo vrátí s poznámkou.
 3. Po sloučení se změna promítne tam, kde běží: uložený skill v claude.ai nebo nastavení naplánované úlohy.
+
+Před commitem běží kontrola citlivých údajů. V Claude Code ji spouští hook v `.claude/settings.json` sám. V lokální kopii ji zapneš jednou příkazem `git config core.hooksPath .githooks`.
 
 Skilly v claude.ai a prompty úloh se zatím synchronizují ručně. Zdrojem pravdy je to, co je sloučené v `main`.
 

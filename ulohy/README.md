@@ -8,6 +8,8 @@ Soubory v této složce jsou přesné znění promptů, se kterými úlohy běž
 | Teamwork návrhy | Po-Pá 6:31 | [teamwork-navrhy.md](teamwork-navrhy.md) | Deník návrhů v profilu |
 | Ranní přehled (Morning brief) | Po-Pá 6:50 | [ranni-prehled.md](ranni-prehled.md) | Brief + Deník návrhů a Změny v rozhodnutích v profilu |
 | Příprava na Social & Creative status | Po 7:33 | [pondeli-priprava.md](pondeli-priprava.md) | Nový Claude Doc s přípravou a týdenním skóre |
+| Otisk týdne | Pá 13:27 (založí se po sloučení) | [otisk-tydne.md](otisk-tydne.md) | Nový Claude Doc „Otisk týdne“ |
+| FAIL: nové materiály pro odraz | Út a Čt 7:22 | prompt v nastavení úlohy | Návrhy do vlákna „Zapracovat poznatky z FAIL do odrazu“ |
 
 Pořadí je záměrné: kontrolor a Teamwork krok zapíšou výsledky a ranní přehled je v 6:50 převezme.
 

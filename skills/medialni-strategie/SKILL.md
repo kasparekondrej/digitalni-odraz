@@ -103,4 +103,13 @@ Ověřené benchmarky CPM, CPC ani PNO tu nejsou. Čísla ber jen z plánovače 
 | Trinity Bank, tendr | Strategie dobrá | Prohra kvůli známostem, ne obsahu |
 | Henry Schein | Meta 8 h, Ads 10 h, analytika 10 h | Běží |
 
+## Učení z Ondřejových úprav
+
+Ondřej dělá strategie s AI, ne bez ní. Vzorem proto není hotová lidská strategie, ale rozdíl mezi tím, co navrhla AI, a tím, co Ondřej nakonec klientovi poslal.
+
+- Když s Ondřejem připravuješ strategii, ulož si svou poslední verzi před jeho úpravami (Claude Doc nebo jeho Drive, nikdy do tohoto repozitáře, obsah klienta je důvěrný).
+- Až řekne, že je strategie hotová nebo odeslaná, porovnej svou verzi s finální. Ptej se jen na rozdíly v rozhodnutích (kanál, rozpočet, poměr brand a výkon, KPI, škrtnutá kapitola), ne na formulace.
+- Ke každému rozdílu navrhni obecné pravidlo bez jména klienta a čísel klienta. Po jeho souhlasu ho zapiš do záložky „Jak stavím strategii“ v profilu a jako návrh změny tohoto skillu přes pull request. Případ přidej do knihovny níže.
+- Test naslepo: na dalším zadání připrav strategii jen podle skillu, Ondřej ji porovná se svou. Shodu a rozdíly zapiš do worklogu.
+
 Výstup vždy předlož jako návrh ke schválení. Nic za Ondřeje neodesílej.
