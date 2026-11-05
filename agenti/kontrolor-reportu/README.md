@@ -24,10 +24,11 @@ Jen týmy, které vede Ondřej: Social, Content, Grafika, PPC a RTB/DV360 (včet
 ## Jak bude pracovat
 
 1. Běží každý pracovní den od 1. do 20. dne v měsíci, první ostrý běh v listopadu 2026 (reporty za říjen).
-2. Ke každému nalezenému reportu projde [standard.md](standard.md) a vrátí řádek: klient, kanál, autor, odkaz na úkol a soubor, verdikt, počet nesplněných bodů, nejdůležitější oprava.
-3. Výsledky zapisuje do Claude Docu „Kontrolor reportů“. Ke každému reportu připraví komentář pro autora Ondřejovým hlasem.
-4. Komentář jde do Teamwork úkolu na report, Ondřejovým jménem (připojený účet je jeho), se zmínkou autora (řešitel úkolu). Accounta projektu (vlastník projektu v Teamworku) přidá jen tam, kde to Ondřej určí.
-5. Kontrolor nic neopravuje v samotném reportu a nic neposílá klientovi.
+2. Report s více kanály (PPC, Social, SEO+LB, e-mailing, srovnávače, Content, video) kontroluje až ve chvíli, kdy jsou data i komentáře za minulý měsíc doplněné ve všech sekcích (rozhodnutí Ondřeje z 5. 11. 2026). Neúplný report zapíše se stavem „odloženo“ a s tím, co chybí, a při každém dalším běhu ho otevře znovu. Odložené komentáře se neposílají.
+3. Ke každému kompletnímu reportu projde [standard.md](standard.md) a vrátí řádek: klient, kanál, autor, odkaz na úkol a soubor, verdikt, počet nesplněných bodů, nejdůležitější oprava.
+4. Výsledky zapisuje do Claude Docu „Kontrolor reportů“. Ke každému reportu připraví komentář pro autora Ondřejovým hlasem.
+5. Komentář jde do Teamwork úkolu na report, Ondřejovým jménem (připojený účet je jeho), se zmínkou autora (řešitel úkolu). Accounta projektu (vlastník projektu v Teamworku) přidá jen tam, kde to Ondřej určí.
+6. Kontrolor nic neopravuje v samotném reportu a nic neposílá klientovi.
 
 ## Odesílání komentářů
 
